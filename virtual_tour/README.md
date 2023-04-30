@@ -1,7 +1,7 @@
 
 ## Three.js 
 
-An interactive 3D Art Gallery using Three.js". 
+"An interactive 3D Art Gallery using Three.js". 
 
 
 ## Authors
