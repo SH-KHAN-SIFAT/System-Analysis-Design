@@ -1,8 +1,5 @@
 // File:src/Three.js
 
-/**
- * @author mrdoob / http://mrdoob.com/
- */
 
 var THREE = { REVISION: '71' };
 
@@ -14,11 +11,9 @@ if ( typeof module === 'object' ) {
 
 }
 
-// polyfills
 
 if ( Math.sign === undefined ) {
 
-	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sign
 
 	Math.sign = function ( x ) {
 
@@ -237,9 +232,6 @@ THREE.CanvasRenderer = function () {
 
 // File:src/math/Color.js
 
-/**
- * @author mrdoob / http://mrdoob.com/
- */
 
 THREE.Color = function ( color ) {
 
@@ -658,12 +650,6 @@ THREE.ColorKeywords = { 'aliceblue': 0xF0F8FF, 'antiquewhite': 0xFAEBD7, 'aqua':
 
 // File:src/math/Quaternion.js
 
-/**
- * @author mikael emtinger / http://gomo.se/
- * @author alteredq / http://alteredqualia.com/
- * @author WestLangley / http://github.com/WestLangley
- * @author bhouston / http://exocortex.com
- */
 
 THREE.Quaternion = function ( x, y, z, w ) {
 
@@ -765,7 +751,7 @@ THREE.Quaternion.prototype = {
 			throw new Error( 'THREE.Quaternion: .setFromEuler() now expects a Euler rotation rather than a Vector3 and order.' );
 		}
 
-		// http://www.mathworks.com/matlabcentral/fileexchange/
+		
 		// 	20696-function-to-convert-between-dcm-euler-angles-quaternions-and-euler-vectors/
 		//	content/SpinCalc.m
 
@@ -1181,14 +1167,7 @@ THREE.Quaternion.slerp = function ( qa, qb, qm, t ) {
 
 }
 
-// File:src/math/Vector2.js
 
-/**
- * @author mrdoob / http://mrdoob.com/
- * @author philogb / http://blog.thejit.org/
- * @author egraether / http://egraether.com/
- * @author zz85 / http://www.lab4games.net/zz85/blog
- */
 
 THREE.Vector2 = function ( x, y ) {
 
@@ -1621,16 +1600,6 @@ THREE.Vector2.prototype = {
 
 };
 
-// File:src/math/Vector3.js
-
-/**
- * @author mrdoob / http://mrdoob.com/
- * @author *kile / http://kile.stravaganza.org/
- * @author philogb / http://blog.thejit.org/
- * @author mikael emtinger / http://gomo.se/
- * @author egraether / http://egraether.com/
- * @author WestLangley / http://github.com/WestLangley
- */
 
 THREE.Vector3 = function ( x, y, z ) {
 
@@ -2474,15 +2443,7 @@ THREE.Vector3.prototype = {
 
 };
 
-// File:src/math/Vector4.js
 
-/**
- * @author supereggbert / http://www.paulbrunt.co.uk/
- * @author philogb / http://blog.thejit.org/
- * @author mikael emtinger / http://gomo.se/
- * @author egraether / http://egraether.com/
- * @author WestLangley / http://github.com/WestLangley
- */
 
 THREE.Vector4 = function ( x, y, z, w ) {
 
@@ -3168,13 +3129,7 @@ THREE.Vector4.prototype = {
 
 };
 
-// File:src/math/Euler.js
 
-/**
- * @author mrdoob / http://mrdoob.com/
- * @author WestLangley / http://github.com/WestLangley
- * @author bhouston / http://exocortex.com
- */
 
 THREE.Euler = function ( x, y, z, order ) {
 
@@ -3497,11 +3452,7 @@ THREE.Euler.prototype = {
 
 };
 
-// File:src/math/Line3.js
 
-/**
- * @author bhouston / http://exocortex.com
- */
 
 THREE.Line3 = function ( start, end ) {
 
