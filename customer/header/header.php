@@ -149,12 +149,16 @@ include("../connection.php");
 					
 
           </li>
-<li><a href="exhibitionevents.php">View Exhibition & Events
-</a>
+
+          <li><a href="exhibitionevents.php">View Exhibition & Events</a>
 
           </li>
-		  <li><a href="courses.php">View Courses
-</a>
+
+          <li><a href="http://localhost/3D ART GALLERY/virtual_tour/">Virtual Tour</a>
+
+          </li>
+
+		      <li><a href="courses.php">View Courses</a>
 
           </li>
 
